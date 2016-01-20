@@ -1,0 +1,286 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 9, 2015, 7:38:40 PM
+    Author     : slintas
+*/
+
+#workbench{
+    min-height: 500px;
+    margin: 0px 10px 10px 10px;
+}
+
+#tools{
+    height: 40px;
+    border:1px solid grey;
+    margin: 10px;
+    background:white;
+}
+
+#tools_title{
+    float:left;
+    font-size: 20px;
+    margin:10px 5px 10px 10px;;
+}
+
+.tools_icon{
+    float:right;
+    margin:5px 5px 5px 2px;
+}
+
+#domains{
+    height:50px;
+    width:100%;
+    margin:0px 10px 10px 10px;
+}
+
+#benches{
+    width:100%;
+}
+
+#left_bench_domain{
+    border:1px solid black;
+    float:left;
+    width:42%;
+    min-height: 50px;
+    background:white;
+}
+
+#right_bench_domain{
+    border:1px solid black;
+    float:right;
+    width:42%;
+    min-height: 50px;
+    margin: 0px 20px 0px 0px;
+    background:white;
+}
+
+#left_bench{
+    border:1px solid black;
+    float:left;
+    width:42%;
+    min-height: 500px;
+    max-height: 800px;
+    overflow-y: scroll;
+    margin: 0px 10px 0px 10px;
+    background:white;
+}
+
+#right_bench{
+    border:1px solid black;
+    float:right;
+    width:42%;
+    min-height: 500px;
+    margin: 0px 10px 0px 10px;
+    background:white;
+}
+
+.bench_click{
+    cursor: pointer;
+    width:200px;
+    height:53px;
+    border-radius: 20px;
+    border:1px solid black;
+    background:rgb(255,228,179);
+    text-align: center;
+    line-height: 25px;
+    font-size:20px;
+}
+
+.domain_input{
+    height:30px;
+    font-size: 20px;
+    line-height: 30px;
+    min-width: 350px;
+    width:30%;
+    margin:7px;
+}
+
+.bench_icons{
+    float:right;
+    margin:5px 5px 0px 0px;
+}
+
+.collapser{
+    width:20px;
+    height:20px;
+    margin:4px;
+    float:left;
+    cursor:pointer;
+}
+
+.collapser_dot{
+    width:10px;
+    height:10px;
+    margin:10px;
+    float:left;
+}
+
+.bench_domain_content{
+    font-size:20px;
+    background:black;
+    padding-left:28px;
+    display:block;
+    color:white;
+    float:none;
+}
+
+.bench_domain_content:after { 
+    content: "."; 
+    visibility: hidden; 
+    display: block; 
+    height: 0; 
+    clear: both;
+}
+
+.bench_domain_content .visualizer_value{
+    height:30px;
+    background:inherit;
+    width:calc(100% - 150px);
+    float:left;
+}
+
+.bench_domain_content .visualizer_type{
+    height:29px;
+    background:rgb(249,121,18);
+    text-align: center;
+    width:149px;
+    float:right;
+    border-bottom: 1px solid black;
+    border-left:1px solid black;
+}
+
+.visualizer_value_text{
+    padding:3.5px 0px 0px 10px;
+}
+
+.visualizer_value_type{
+    padding:3px 0px 0px 0px;
+}
+
+.bench_sub_domain_content{
+    font-size:20px;
+    background:#4A4A4A;
+    color:white;
+    float:none;
+}
+
+.bench_sub_domain_content .visualizer_value{
+    height:30px;
+    margin-left:28px;
+    width:75%;
+    width:calc(100% - 178px);
+    background:inherit;
+    float:left;
+}
+
+.bench_sub_domain_content .visualizer_type{
+    height:29px;
+    background:#F3A51F;
+    text-align: center;
+    width:149px;
+    float:right;
+}
+
+#search_country{
+    height:40px;
+    width:200px;
+}
+
+#search_country select{
+    width:150px;
+    height:20px;
+}
+
+#guide_owner{
+    font-size:22px;
+    font-weight: bold;
+    margin:10px 20px 10px 20px;
+}
+
+#guide_video{
+    margin: 0px 10px;
+    width: calc(100% - 20px);
+}
+
+#guide_video iframe{
+    width:640px;
+    height:360px;
+}
+
+#guide_description{
+    margin:10px;
+    font-size: 18px;
+}
+
+#comment_section{
+    border:1px solid grey;
+    margin: 20px 10px 30px 10px;
+    background:white;
+    min-width: 600px;
+}
+
+.comment{
+    margin: 10px;
+}
+
+.sub_comments{
+    margin: 2px 0px 3px 30px;
+}
+
+.comment_owner{
+    font-size:16px;
+    font-weight: bold;
+    height:40px;
+}
+
+.comment_text{
+    margin:3px 0px 10px 0px;
+    font-size:16px;
+    border-bottom: 2px solid rgb(250,174,85);
+}
+
+#tour_guide_results{
+    margin:10px;
+}
+
+.guide_result{
+    margin:10px;
+    border-bottom: 2px solid rgb(250,174,85);
+    cursor: pointer;
+}
+
+.guide_title{
+    font-size:16px;
+    font-weight: bold;
+}
+
+.guide_tags{
+    margin: 5px;
+    width:calc(100% - 10px);
+    height:20px;
+}
+
+.guide_owner{
+    font-size:16px;
+    height:20px;
+    margin-left:5px;
+}
+
+.tag{
+    float:left;
+    border: 1px solid black;
+    background: #89B4FF;
+    margin-left:5px;
+    padding:2px;
+    border-radius: 5px;
+    font-size:18px;
+    margin-top:-2px;
+}
+
+.shadows{
+    display:none;
+}

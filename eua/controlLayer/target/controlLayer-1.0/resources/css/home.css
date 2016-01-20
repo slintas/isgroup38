@@ -1,0 +1,159 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 30, 2015, 5:59:42 PM
+    Author     : slintas
+*/
+
+#information_side{
+    width:450px;
+    height:600px;
+    margin-left:16%;
+    float:left;
+    width:30.5%;
+    border-right:4px solid rgb(249,121,18);
+}
+
+/*body right side*/
+#sign_in_up{
+    width:450px;
+    height:600px;
+    margin-right:20%;
+    width:26.5%;
+    float:right;
+    border-radius:15px;
+}
+
+#render_area{
+    display:none;
+    margin:25px;
+    width:350px;
+    border-radius:15px;
+}
+
+#to_sign_in{
+    position:relative;
+    display:none;
+    width:450px;
+    height:230px;
+    border-radius:15px;
+    margin-top:140px;
+    border:1px solid #576779;
+    background:#FFEFDC;
+}
+
+#to_sign_up{
+    position:relative;
+    display:none;
+    width:450px;
+    height:390px;
+    border-radius:15px;
+    margin-top:140px;
+    border:1px solid #576779;
+    background:#FFEFDC;
+}
+
+.model_title{
+    height:50px;
+    padding-left:25px;
+    font-size:22px;
+    line-height:2;
+    background:rgb(249,121,18);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.title_close{
+    float:right;
+    margin-top:-40px;
+    margin-right:20px;
+}
+
+.title_close:hover{
+    cursor:pointer;
+}
+
+.title_close img{
+    width:25px;
+    height:25px;
+}
+
+.input{
+    margin:25px;
+    width:400px;
+    height:30PX;
+    margin-top:20px;
+}
+
+.input input{
+    width:200px;
+    height:25px;
+    font-size:16px;
+    border-radius:5px;
+    border:2px solid rgb(217,217,217);
+}
+
+.JS_error{
+    width:170px;
+    height:30px;
+    color:red;
+    float:right;
+    margin-top:-52px;
+    margin-right:30px;
+}
+
+.JS_error_button{
+    width:220px;
+    height:30px;
+    color:red;
+    float:left;
+    margin-left: 25px;
+}
+
+.sign_label{
+    width:150px;
+    float:left;
+}
+
+.input_button{
+    float:right;
+    margin-right:20px;
+}
+
+.checkbox{
+    float:left;
+    margin-top:7px;
+}
+
+#buttons{
+    background:#FFEFDC;
+    margin:25px;
+    width:350px;
+    border-radius:15px;
+    border:1px solid black;
+    height:140px;
+    margin-top:200px;
+}
+
+.buttons_text{
+    text-align: center;
+    line-height: 28px;
+    font-size:16px;
+    clear:both;
+    margin: 5px 0px 6px 0px;
+}
+
+.buttons_tex_middle{
+    height:30px;
+    width:20px;
+    float:left;
+    margin:7px 3px 0px 28px;
+}
+
+.sign_button{
+    text-align: center;
+    float:left;
+}

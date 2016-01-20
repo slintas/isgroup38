@@ -1,0 +1,144 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 7, 2015, 5:06:47 PM
+    Author     : slintas
+*/
+
+#header{
+    width:100%;
+    height:40px;
+    background:black;
+    overflow:hidden;
+}
+
+#logo{
+    float:left;
+    font-size: 28px;
+    color:white;
+    margin:6px;
+    margin-left:30px;
+    font-weight: bold;
+    min-width:170px;
+    width:15%;
+    height:40px;
+}
+
+.logo_stroke{
+    color:orange;
+    //-webkit-text-stroke: 2px rgb(225,135,40);
+}
+
+#logo_title{
+    float:left;
+
+}
+
+#logo_image{
+    float:left;
+}
+
+.logo_image_icon{
+    margin-left:3px;
+    margin-top:1px;
+    width:25px;
+    height:25px;
+}
+
+#user_info{
+    text-align: center;
+    float:right;
+    color: rgb(255,165,0);
+    font-size:22px;
+    line-height: 38px;
+    margin-right:5px;
+}
+
+#user_controlls{
+    float:right;
+    margin-right:30px;
+    min-width:200px;
+    width:15%;
+    height:40px;
+}
+
+#user_controller_image{
+    border-left: 5px solid rgb(255,165,0);
+    border-right: 5px solid rgb(255,165,0);
+    width:40px;
+    height:40px;
+    cursor:pointer;
+    float:right;
+}
+
+#user_controller_image .logo_image_icon{
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    margin-left:7px;
+    margin-top:7px;
+}
+
+#menu{
+    width:60%;
+    float:left;
+    color:white;
+    height:40px;
+    display:inline-block;
+}
+
+.menu_element{
+    height:40px;
+    font-size:22px;
+    line-height: 38px;
+    text-align: center;
+    float:left;
+    width:50%;
+}
+
+.clickable_text:hover{
+    cursor:pointer;
+    color: rgb(255,165,0);
+    text-decoration-line: underline;
+}
+
+#user_menu{
+    display:none;
+    margin-left:-110px;
+    margin-top:6px;
+    position:absolute;
+    border:3px solid rgb(255,165,0);
+    background:rgb(255,239,220);
+    width:150px;
+}
+
+#user_menu .user_menu_option{
+    height:40px;
+    width:150px;
+    font-size: 18px;
+}
+
+#user_menu .user_menu_option_text{
+    margin:7px 5px 0px 7px;
+    float:left;
+    text-decoration: inherit;
+}
+
+#user_menu .user_menu_option:hover{
+    text-decoration: underline;
+}
+
+#user_menu .user_menu_option_icon{
+    margin:5px 7px 0px 7px;
+    float:right;
+}
+
+.votes{
+    float:left;
+    margin:10px 10px 10px 15px;
+}

@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 16, 2016, 3:08:02 AM
+    Author     : slintas
+*/
+
+.input_field{
+    height:40px;
+    margin:20px;
+}
+
+.input_field_expl{
+    float:left;
+    margin-right: 10px;
+    width:120px;
+    font-size: 20px;
+}
+
+.input_field_text input{
+    width:calc(100% - 160px);
+    height:25px;
+    font-size: 18px;
+    margin-top:-3px;
+}
+
+.description{
+    margin:20px;
+}
+
+.title{
+    font-size:20px;
+    margin-bottom: 10px;
+}
+
+.buttons{
+    margin:20px;
+    float:right;
+}
+
+.create_title{
+    margin:20px;
+    font-size:22px;
+}
+
+#guide_title{
+    margin:20px;
+    font-size:22px;
+}

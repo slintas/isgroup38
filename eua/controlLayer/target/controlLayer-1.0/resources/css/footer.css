@@ -1,0 +1,38 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 30, 2015, 8:32:50 PM
+    Author     : slintas
+*/
+
+
+#footer{
+    height:40px;
+    width:100%;
+}
+
+#footer_menu{
+    width:100%;
+    float:left;
+    color:black;
+    height:40px;
+    display:inline-block;
+
+}
+
+.footer_menu_element{
+    height:40px;
+    font-size:22px;
+    line-height: 38px;
+    text-align: center;
+    float:left;
+    width:33%;
+}
+
+.footer_clickable_text:hover{
+    cursor:pointer;
+    text-decoration-line: underline;
+}

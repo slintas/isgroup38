@@ -1,0 +1,16 @@
+
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://localhost:8080/datamaps/Controller/example_person_a.xml">
+
+    <xs:element name="Person">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="to" type="xs:string"/>
+                <xs:element name="from" type="xs:string"/>
+                <xs:element name="heading" type="xs:string"/>
+                <xs:element name="body" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

@@ -1,0 +1,51 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 30, 2015, 11:59:22 PM
+    Author     : slintas
+*/
+
+
+.button{
+    width:120px;
+    height:30px;
+    border-radius:15px;
+    background:rgb(249,121,18);
+    color:black;
+    font-size:14px;
+    font-weight: bold;
+    border:2px solid black;
+    margin-left:20px;
+}
+
+.button:hover:enabled{
+    background:rgb(254,227,195);
+    cursor: pointer;
+}
+
+.button:disabled{
+    opacity:0.5;
+}
+
+.button_cancel{
+    width:120px;
+    height:30px;
+    border-radius:15px;
+    background:rgb(254,227,195);
+    color:rgb(249,121,18);
+    font-size:14px;
+    font-weight: bold;
+    border:2px solid rgb(249,121,18);
+}
+
+.button_cancel:hover:enabled{
+    background:rgb(224,207,175);
+    cursor: pointer;
+}
+
+.button_cancel:disabled{
+    opacity:0.5;
+}
